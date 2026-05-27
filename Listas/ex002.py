@@ -1,0 +1,11 @@
+frutas = ['maça', 'banana', 'pêra']
+print('lista', frutas)
+print('Tamanho da lista', len(frutas))
+frutas.append('Uvas')
+print('Tamanho da lista: ', len(frutas))
+frutas.remove('banana')
+print('Lista atualizada: ', frutas)
+frutas.sort()
+print('Lista ordenada: ', frutas)
+print(frutas[-1])
+print(frutas[-2])
